@@ -1,0 +1,71 @@
+Multi-Vendor Infrastructure {#archetype:multi-vendor-infrastructure}
+---------------------------
+
+**Examples:** *Kubernetes, Open Stack (but also has characteristics of
+"Wide Open")*
+
+**Characteristics:** Multi-Vendor Infrastructure are large software
+projects that provide fundamental facilities to a wide array of other
+businesses. This infrastructure is designed collaboratively by multiple
+vendors and then each deploys it in their own way. Kubernetes and
+OpenStack are two prominent Multi-Vendor Infrastructure projects that
+most developers will have heard of.
+
+Multi-Vendor Infrastructure efforts are driven by business needs rather
+than individuals, and are open to relatively lightweight participation.
+A good way to distinguish a Multi-Vendor Infrastructure project from
+Business-to-Business (B2B) Open Source is to look at how often
+contributors continue to participate, in the same or similar roles,
+after they switch employers. When that phenomenon occurs, it indicates
+that multiple organizations use the software as infrastructure in
+roughly the same way, and thus the same person may continue representing
+those technical priorities across different organizations.
+
+In other words, the difference between this and B2B Open Source is that
+less organizational and process overhead is required to take part ---
+enough less to make participating a qualitatively different proposition.
+For example, individual developers are generally more able and more
+likely to make contributions to Kubernetes and OpenStack than they are
+to Android, *but* they still tend to do so from organizational rather
+than from individual motivation. These organizational motivations often
+relate to tactical needs, and may be enabled by mid-level management
+decisions. By contrast, B2B open source tends to be driven by corporate
+business strategy, and is thus more likely to figure into
+executive-level decisions.
+
+What this means for Mozilla is that if Mozilla clearly understands who
+within its potential partners is authorizing participation, then Mozilla
+will be much better positioned to tune the project's collaboration
+processes --- and related things like conference appearances, media
+strategies, further partner discovery, etc. --- so as to maximize the
+benefit to Mozilla's mission.
+
+Note that both the Multi-Vendor Infrastructure and the B2B Open Source
+archetypes are patterns that achieve benefits at scale. They are also
+patterns that provide infrastructure to enable a varied set of
+third-party activity. The largest advantage of open source to these
+ecosystems is broad standardization (including informal or
+standardization). Both the container world and the cloud ecosystem
+provide a set of tools and pieces that can be combined together in
+standard ways to provide custom solutions. That standardization is
+necessary to allow reconfiguration and customization. It drives adoption
+at scale, and, in a virtuous circle, the scale is what creates the
+standards. It would be difficult to achieve this dynamic with a
+proprietary approach; open source lowers the cost of participation and
+powers network effects that lead to scale.
+
+-   **Licensing**: Typically non-copyleft, given that many members of
+    the community are likely to maintain proprietary forks of the core
+    product.
+
+-   **Community standards**: Welcoming, but formal, and often difficult
+    for individual contributors to enter. Participation takes a high
+    level of resources.
+
+-   **Component coupling**: Loosely-coupled modules joined by standards.
+
+-   **Main benefits**: Fosters collaboration with partner organizations
+    to solve shared problems.
+
+-   **Typical governance**: Formal tech committee, with membership by
+    each of the major contributing companies.

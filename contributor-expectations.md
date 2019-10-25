@@ -1,0 +1,35 @@
+[\[contributor-expectations\]]{#contributor-expectations
+label="contributor-expectations"}
+
+Knowing a project's archetype helps to answer an important question:
+
+3em3em *How much, and in what ways, should we invest in attracting,
+onboarding, and working with contributors?*
+
+Setting contributor expectations accurately is one of the best moves a
+project can make. For example, an open source project is not obligated
+to be Wide Open (), but it should avoid accidentally misrepresenting
+itself as Wide Open if it's not going to provide the kind of contributor
+support that a Wide Open project would normally provide. Potential
+contributors want to see what they're getting into before they invest
+significant effort. The more clearly a project provides such information
+up front, the easier it is for suitable contributors to find their way
+in and, equally importantly, for unsuitable ones to self-select out.
+
+Here are some of the questions developers typically have regarding
+participation in an open source project:
+
+-   I'm considering contributing. What's the typical onboarding path?
+    How far can a third party contributor go?
+
+-   I am a new contributor. How much influence should I expect to have
+    in this project, if I continue contributing at my current level?
+    What about if I start contributing more frequently or more
+    substantially?
+
+-   I am part of the maintainance team. How much time should I expect to
+    spend mentoring new contributors?
+
+In we give some examples of how a project might express expectations
+clearly to contributors, and offers some suggestions for where to
+publish such language.

@@ -1,0 +1,70 @@
+[\[business-models\]]{#business-models label="business-models"}
+
+A project's archetype is just one component of some larger strategy, and
+the strategy should drive the archetype, not the other way around. To
+think "Okay, we have a Rocket Ship to Mars project here. What business
+models can it support?" would be putting the cart before the horse. The
+better way is to start from strategy: "The business model we see this
+project being part of is X. What archetypes work well with X?" (There
+may be more than one business model, of course, just as a project may
+end up incorporating elements from multiple archetypes.)
+
+Different archetypes suit different business models, similarly to how
+different open source licenses suit different kinds of for-profit
+activity. In licensing, there are times when a non-copyleft[^1] license
+is the right choice, given your intended business model (perhaps
+widespread adoption is crucial to your plans), and there are times when
+the strongest possible copyleft[^2] is the right choice (perhaps
+avoidance of proprietary derivatives is crucial to your plans).
+
+Similar considerations apply when choosing an archetype. If gaining
+mindshare among individual developers is crucial, then you need an
+archetype (such as Wide Open) that prioritizes participant onboarding,
+even if it means sacrificing development speed or other technical goals.
+If building a coalition to forestall market domination by a large
+competitor is your goal, then an archetype designed for
+inter-organizational collaboration (such as B2B or Multi-Vendor
+Infrastructure) is a better choice.
+
+Think of "business model" as a superset of "revenue model". A revenue
+model is just one part of a business model. You must start from a clear
+definition of your product and your value proposition. For example, in
+proprietary software, businesses that look at first glance like they are
+based on a royalty-per-copy revenue model often turn out, on closer
+examination, to be more complex than that. Sometimes a business *thinks*
+it is selling per-seat or per-server usage rights, while its customers
+think they're what they're paying for is support, vetted installation,
+configuration convenience, and regular security and feature updates.
+
+Most revenue models are compatible with open source, in general. Really,
+the only one that is incompatible with open source is the one based on
+per-copy royalties for software sales. While that can be a very
+successful[^3] revenue model under certain circumstances, it is far from
+the only one.
+
+This report is not the place for an in-depth discussion of value
+creation, value capture, market definition, and revenue models. We note
+these complex topics merely to point out that any given open source
+archetype will be better-suited to some business models and worse-suited
+to others. In order to determine which archetype is best for your
+project, you must start from the high-level strategy --- in which
+revenue is just one element --- that motivated your involvement in
+project in the first place.
+
+[^1]: A.k.a. "permissive". See .
+
+[^2]: E.g., Currently the AGPL. As of this writing in early 2019, the
+    debate over whether the newly-created "Server Side Public License"
+    from MongoDB is or is not a free software / open source license is
+    still very new. Because it has not yet been evaluated by the OSI nor
+    declared a free software license by the FSF, we take a conservative
+    approach and do not consider it here. This does not imply any
+    position on whether it is or isn't a free and open source (FOSS)
+    license. It simply acknowledges the practical reality that
+    SSPL-licensed software is not going to be widely treated as FOSS
+    unless and until the relevant certifying organizations treat it as
+    FOSS. See for more context.
+
+[^3]: If you define success primarily in terms of revenue generation,
+    that is. For mission-driven organizations, success involves more
+    than that anyway.

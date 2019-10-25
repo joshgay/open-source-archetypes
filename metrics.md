@@ -1,0 +1,192 @@
+[\[metrics-archetypes\]]{#metrics-archetypes label="metrics-archetypes"}
+
+The purpose of metrics, in the context of the archetypes, is to tell you
+whether your investments are having the desired effect.
+
+Metrics are only meaningful when you start from your goals. What are you
+trying to maximize, what is your investment so far, and are you seeing
+the kinds of results you want? It's rarely a question of "Are we doing a
+good job or a bad job?". Rather, it's "How can we do a better job?"
+
+For example, your goal is to create an ecosystem that spans an industry,
+with a Multi-Vendor Infrastructure project, then an important metric to
+watch is what companies are contributing to the project --- not just
+who, but the frequency and depth of their involvement, how often
+organizations work with each other as peers (without the founding
+organization's involvement), etc.
+
+Compare that with a Wide Open project, where long-term stability is a
+key goal. In that case, signals of health would be diversity of
+contributors, reduction in onboarding time, rate of non-employee
+contribution, etc. If one of your goals in the project is to use open
+source involvement to develop a hiring pipeline for new talent, that
+could affect how you approach onboarding: a broad shallow pool may be
+good enough. Broad and deep is even better of course -- but that takes
+more investment, which may or may not be worth it.
+
+The goal of metrics is not to *identify* the archetype --- an archetype
+is more a goal one than a reality one discovers --- but to tell if the
+project is succeeding at its goals. A secondary purpose is to get
+advance notice of forces that may cause the project to evolve from one
+archetype to another. If you're expecting certain metrics but seeing
+different ones, it could indicate that the project is transitioning to,
+or possibly from, some other archetype.[^1] Whether this is desirable or
+not depends on your goals.
+
+Because archetypes overlap, and because a given metric usually applies
+to multiple archetypes, we treat metrics as their own unified topic
+here, rather than organizing them by archetype. For a given archetype,
+certain measurements warrant special consideration, and we will discuss
+those where applicable.
+
+Some measurements to consider, in no particular order:
+
+*TBD: This part of the section needs to be organized a bit better, and
+maybe condensed.*
+
+-   Ratio of one-off inquirers to repeat inquirers.
+
+    For Mass Market, expect very high.
+
+    For Wide Open, expect high.
+
+    Review the others, and gather some data to see if this ratio differs
+    as expected. (Note: we could save negative-result hypotheses and
+    maybe include them in an appendix or a separate document, instead of
+    just removing them as though they were never there.)
+
+-   Duration of organizational participation, and "weight" per org.
+    Duration might need to be measured relative to market cycles.
+
+    (B2B)
+
+-   Ratio of large change requests to small / one-off change requests.
+
+    (B2B)
+
+-   Ratio of organizationally-motivated changes to
+    individually-motivated ones.
+
+    (B2B, Multi-Vendor Infrastructure)
+
+-   Existence of customized forks / vendor branches.
+
+    (B2B)
+
+-   Rate of conversion of bug reporters to code contributors.
+
+    (Specialty Library, Controlled Ecosystem, Upstream Dependency)
+
+-   Frequency of appearance as topic of conference presentations,
+    hackathons?
+
+    (B2B)
+
+-   Ratio of lead-org contributors to external contributors?
+
+    (B2B and Multi-Vendor Infrastructure, but note that one should
+    expect different ratios for those two different archetypes)
+
+-   Ubiquity of use within a defined industry area.
+
+    (B2B)
+
+-   Packaging by OS distros; frequency of being offered as a pre-defined
+    add-on by cloud vendors.
+
+    (Multi-Vendor Infrastructure, maybe B2B)
+
+-   Migration of functionality from core to plugins (this is a special
+    case of increasing modularization)
+
+    (Controlled Ecosystem)
+
+-   Frequency with which a representative from the lead organization
+    ("Benevolent Dictator Organization" / "BDO") participates in
+    discussion, especially with respect to discussions that lead toward
+    a decision. Look at both ratio across all discussions and ratio
+    within each discussion thread. By "discussions" here, we include
+    issue tracker threads.
+
+    For B2B, RStM, Upstream Dependency, and Trusted Vendor, this
+    frequency should be high.
+
+    For Controlled Ecosystem, same, but only w.r.t. core development,
+    not plugins.
+
+    For Multi-Vendor Infrastructure, if it's very high for one org, that
+    might be a sign that the project isn't as MVI as you thought.
+
+    For Wide Open and Mass Market, this metric is not particularly
+    relevant. It could be high or it could be low, but it doesn't
+    necessarily tell you much either way.
+
+-   Organizational diversity of responders.
+
+    In Multi-Vendor Infrastructure, again watch out for one org doing
+    most of the responding. One use of these metrics is to be able to
+    tell a project -- perhaps a project that doesn't want to hear it --
+    that although they are aiming for MVI, they're actually B2B or
+    something else.
+
+    In Trusted Vendor, B2B, RStM, Specialty Library, expect low.
+
+    In Wide Open, Mass Market, and Controlled Ecosystem, except high.
+
+    In Upstream Dependency, not sure this metric tells us much.
+
+-   Engagement-level diversity of responders.
+
+    (tbd: compare with above)
+
+-   Diversity of participants and contributors along several axes:
+
+    -   Nationality (also, location --- remember they're not the same)
+
+    -   Native language
+
+    -   Profession
+
+    -   Gender
+
+    -   Ethnicity
+
+    -   \...tbd\...
+
+    These may be of special interest to Wide Open and Mass Market
+    projects. An argument --- or perhaps several distinct arguments,
+    depending on the archetype --- can be made for their importance to
+    other archetypes too.
+
+-   Number of interactions from newcomer arrival to making a
+    contribution (and thence to becoming a committer, perhaps), for
+    those who do so.
+
+    In a sense, this measures "speed", but using interactions as the
+    clock tick instead of using calendar time. We define an interaction
+    as participation in a distinct thread (including an issue tracker
+    thread).
+
+    The reason to measure by interaction instead of calendar time is
+    that the latter is likely to vary for reasons that are entirely
+    about the individual and not about the project. For example, someone
+    who is busy and not focused on this project might only interact a
+    few times per year while still eventually getting to the point of
+    making a contribution, while someone who has more time or more
+    motivation might do the same much more quickly.
+
+    This *may* be independent of archetype, and it may be the first of a
+    whole class of metrics that are useable as signs of health but that
+    don't necessarily correlate strongly with any particular archetype.
+    If so, we should probably have a dedicated subsection for such
+    cross-archetype metrics.
+
+Tools for Metrics
+-----------------
+
+*TBD: This section will discuss what kinds of tools (for data-gathering,
+querying, and data-visualization) are needed to make metrics like the
+ones above available. We are researching that question, using some open
+source projects that Mozilla works in as examples.*
+
+[^1]: See .

@@ -1,0 +1,19 @@
+[\[methodology\]]{#methodology label="methodology"}
+
+To prepare this report, we interviewed about a dozen Mozilla-affiliated
+people with diverse views on open source across a range of Mozilla
+initiatives and products. Initially, those interviews focused on a few
+Mozilla efforts (Firefox, Rust, and Servo), but eventually they grew to
+include discussions of many Mozilla efforts and delved into policy
+beyond just open source. We also drew on examinations of open source
+projects unaffiliated with Mozilla; we initiated some of those
+examinations specifically for this report, and had already done others
+as part of previous research efforts.
+
+[\[acknowledgements\]]{#acknowledgements label="acknowledgements"}
+
+We are grateful to all of the interviewees at Mozilla who gave
+generously of their time and expertise. We have not named them here, in
+part because some asked not to be named (in order to speak frankly), and
+in part because each archetype should stand on its own and not be
+associated with any particular person.

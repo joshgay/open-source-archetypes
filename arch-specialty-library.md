@@ -1,0 +1,48 @@
+Specialty Library {#archetype:specialty-library}
+-----------------
+
+**Examples:** *libssl, libmp4*
+
+**Characteristics:** Specialty libraries provide base functionality to a
+set of functions whose implementation requires specialized knowledge at
+the leading edge of research. E.g., developers shouldn't roll their own
+crypto or codecs; instead, everyone benefits from easy access to a
+pooled set of code built by experts.
+
+These libraries are fairly commoditized, as the set of capabilities for
+such a library is fairly fixed. Any ssl or mp4 library is going to do
+roughly the same thing. Competing libraries might differ at the API
+level, but there is no arms race over features. Given the lack of
+opportunity for competitive advantage in developing one's own library,
+most of those capable of contributing have every reason to do it as part
+of an open source project that shares pooled development costs and
+benefits.
+
+Widespread adoption of a specific open source library can power
+standardization work and also increase adoption of formal and informal
+standards. Coupled with careful approaches to patents, this can open up
+access to participants who aren't attached to companies with deep
+pockets and large patent portfolios.
+
+Specialty libraries look like open source projects with high barriers to
+entry. Anybody can submit a patch, but landing it might require a high
+degree of expert work before it is accepted into core. Coding standards
+are high. There is often less developer outreach and hand-holding of new
+developers as participants are largely assumed to be experienced and
+capable. In a heavily patented area or one subject to export controls,
+acceptance policies might be more complex and even involve legal review.
+
+-   **Licensing**: Usually non-copyleft.
+
+-   **Community standards**: High barriers to entry, largely because
+    contributors are expected to be experts.
+
+-   **Component coupling**: Tightly coupled. These libraries are
+    structured to do one thing well.
+
+-   **Main benefits**: Ensures a shared solution to a specific technical
+    problem. Cooperation at the engineering level can lead to new
+    organizational partnerships.
+
+-   **Typical governance**: Formal committer group that can grant
+    committing privileges to new contributors.

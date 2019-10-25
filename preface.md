@@ -1,0 +1,30 @@
+[\[preface\]]{#preface label="preface"}
+
+*TBD: Most of this can remain the same for version 2, but once the v2 is
+draft complete we'll take another look and see what needs to be adjusted
+here.*
+
+This report was originally commissioned by the Mozilla Corporation for
+internal purposes. Mozilla wanted a shared framework for discussing its
+options in running open source projects, and requested a survey and
+comparative analysis of open source project archetypes --- the various
+shapes that open source projects take in order to meet their various
+goals. For example, should a project prioritize development momentum
+over early collaborator acquisition, or ? Should it optimize for
+individual contributors or for institutional partners? Different
+projects will have different answers to these and many other questions.
+
+The benefits of having a common vocabulary of archetypes extend beyond
+Mozilla, however, and the vocabulary is more useful and more easily
+improvable the more widely it is shared. Accordingly, Mozilla decided to
+release the report publicly. Very little has been changed from the
+original internal version: the Mozilla-specific orientation has been
+left intact, on the theory that the analysis will be clearer if tuned to
+a specific (and fortunately well-known) organization rather than
+rewritten for a hypothetical general audience.
+
+We emphasize that this will always be a work in progress. There may be
+important archetypes we have not thought of, and for the archetypes we
+have identified there may be important properties not discussed here. We
+intend this report to be part of a larger conversation about open source
+project archetypes.
